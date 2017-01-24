@@ -4,5 +4,10 @@
 
 ## Usage
 
-<iframe src="http://bl.ocks.org/mbostock/raw/4061502/0a200ddf998aa75dfdb1ff32e16b680a15e5cb01/" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+Pour l'utiliser, il suffit de dupliquer le code dans 'index.html'. La base de données utilisée est dans db/
+
+Attention, il est important de respecter certaines conventions pour le CSV :
+  - Utiliser des séparateurs ','
+  - La première colonne doit être nommée 'Date'
+  - Le format de date de la première colonne doit être en format anglais (Ex: '12/31/2017', '31 dec. 2017', ...)
 
