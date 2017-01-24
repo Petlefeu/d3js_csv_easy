@@ -36,8 +36,7 @@
     var colors = d3.scale.category20();
     var chart;
     nv.addGraph(function() {
-        // chart = nv.models.stackedAreaChart()
-        chart = nv.models.multiBarChart()
+        chart = nv.models.stackedAreaChart()
             .useInteractiveGuideline(true)
             .x(function(d) { return d[0]; })
             .y(function(d) { return d[1]; })
@@ -47,6 +46,7 @@
         chart.yAxis.tickFormat(d3.format("d"));
         chart.legend.vers("furious");
 
+        // CSV Import
         d3.csv("./db/data.csv", function(csv_input) {
 
             // Extraction of CSV columns title
