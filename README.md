@@ -12,6 +12,6 @@ Attention, il est important de respecter certaines conventions pour le CSV :
   - Le format de date de la première colonne doit être en format anglais (Ex: '12/31/2017', '31 dec. 2017', ...)
 
 
-# Differences
+## Differences
 
 La seule différence entre les charts 'multiBarChart' et 'stackedAreaChart' est à la ligne 39 lors de l'import du modèle.
