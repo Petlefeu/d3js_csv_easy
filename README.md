@@ -21,6 +21,8 @@ Attention, il est important de respecter certaines conventions pour le CSV :
 
 Contrairement aux graphiques temporels, les graphiques statiques associent une valeur à un tag.
 
+  * Pie Chart
+
 La base de données utilisée est dans db/
 
 Attention, il est important de respecter certaines conventions pour le CSV :
