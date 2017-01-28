@@ -37,4 +37,4 @@ La seule différence entre les charts 'multiBarChart' et 'stackedAreaChart' est 
 
 ## Documentation
 
-[[https://nvd3-community.github.io/nvd3/examples/documentation.html]]
+https://nvd3-community.github.io/nvd3/examples/documentation.html
