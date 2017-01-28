@@ -30,7 +30,6 @@
 var d3, chart, nv, fill_tags_obj;
 nv.addGraph(function () {
     chart = nv.models.multiBarChart()
-        .useInteractiveGuideline(true)
         .x(function (d) { return d[0]; })
         .y(function (d) { return d[1]; })
         .duration(300);
@@ -40,7 +39,7 @@ nv.addGraph(function () {
     chart.legend.vers("furious");
 
     // CSV Import
-    d3.csv("./db/temporal_db2.csv", function (csv_input) {
+    d3.csv("./db/temporal_db1.csv", function (csv_input) {
 
         // Extraction of CSV columns title
         var csv_col_title = Object.keys(csv_input[0]).splice(1, Object.keys(csv_input[0]).length);
