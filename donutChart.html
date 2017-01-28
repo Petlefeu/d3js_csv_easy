@@ -39,6 +39,8 @@ nv.addGraph(function () {
         .donut(true)          //Turn on Donut mode. Makes pie chart look tasty!
         .donutRatio(0.35);    //Configure how big you want the donut hole size to be.
 
+    chart.legend.vers("furious");
+
     // CSV Import
     d3.csv("./db/static_db1.csv", function (csv_input) {
 
