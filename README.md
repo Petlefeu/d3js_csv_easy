@@ -34,3 +34,7 @@ Attention, il est important de respecter certaines conventions pour le CSV :
 
 La seule différence entre les charts 'multiBarChart' et 'stackedAreaChart' est à la ligne 39 lors de l'import du modèle.
 
+
+## Documentation
+
+[[https://nvd3-community.github.io/nvd3/examples/documentation.html]]
