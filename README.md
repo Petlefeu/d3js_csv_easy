@@ -3,6 +3,14 @@
 
 ## Usage
 
+```bash
+# Just open the html file. You may have CORS issue with Chrome for exemple
+
+# You can also run a little HTTP Server and go to the right URL
+./web_server.sh
+# then go to http://localhost:8000/multiBarChart.html
+```
+
 ### Graphique temporel
 
 Les graphiques temporels permettent d'afficher en fonction du temps des données.
@@ -30,7 +38,7 @@ Attention, il est important de respecter certaines conventions pour le CSV :
   - Ne mettre que deux lignes, une pour le nom de la donnée et une autre pour ça valeur.
 
 
-## Differences
+## Differences
 
 La seule différence entre les charts 'multiBarChart' et 'stackedAreaChart' est à la ligne 39 lors de l'import du modèle.
 
